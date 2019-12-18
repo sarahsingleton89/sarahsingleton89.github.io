@@ -1,0 +1,83 @@
+body {
+	font-family: 'Josefin Slab', serif;
+background-color: white;
+}
+
+h1 {
+font-family: 'Josefin Slab', serif;
+	color: #3cb371;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	color: #000000;
+font-family: 'Josefin Slab', serif;
+font-style: italic;
+font-size: 24px;
+}
+
+p {
+font-family: 'Josefin Slab', serif;
+font-size: 24px;
+}
+
+header {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #3cb371;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside {
+	background-color: #FF00FF;
+	border: 1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #FF00FF;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #3cb371;
+	border: 1px black solid;
+	padding: 20px;
+}
+div/section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #FF00FF;
+	border: 1px black solid;
+	padding 20px;
+}
+#left {
+	background-color: #FF00FF;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #FF00FF;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

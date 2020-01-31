@@ -1,18 +1,19 @@
 body {
 	font-family: 'Josefin Slab', serif;
 background-color: white;
+color: green;
 }
 
 h1 {
 font-family: 'Josefin Slab', serif;
-	color: #3cb371;
+	color: #black;
 	font-weight: bold;
 	text-align: center;
 	font-size: 50px;
 }
 
 h2 {
-	color: #000000;
+	color: black;
 font-family: 'Josefin Slab', serif;
 font-style: italic;
 font-size: 24px;
@@ -29,49 +30,56 @@ header {
 	padding: 20px;
 }
 nav {
-	background-color: #3cb371;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
 }
 aside {
-	background-color: #FF00FF;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
+	color: black;
 }
 article {
-	background-color: #FF00FF;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
+	color: black;
 }
 footer {
-	background-color: #3cb371;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
+	color: black;
 }
 div/section {
-	background-color: #FFE2B8;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
+	color: black;
 }
 
 #two_column {
-	background-color: #FF00FF;
+	background-color: white;
 	border: 1px black solid;
 	padding 20px;
+
+#right {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+
 }
 #left {
-	background-color: #FF00FF;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 30%;
 }
-#right {
-	background-color: #FF00FF;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
+
 }
 .clearfix:after {
 	visibility: hidden;
